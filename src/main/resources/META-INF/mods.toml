@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+[[mods]]
+modId="intelliweapon"
+version="${file.jarVersion}"
+displayName="IntelliWeapon"
+#updateJSONURL=""
+#displayURL=""
+#logoFile=""
+#credits=""
+authors="Taiyouka"
+description='''
+This is description
+'''
+[[dependencies.intelliweapon]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.intelliweapon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
